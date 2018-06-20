@@ -9,7 +9,7 @@ choice using `mvn clean [package/install/deploy]` depending on where you want to
 
 When executing the jar two system properties must be passed in
     
-    - galing.base.url - base url of target systmem (http://localhost:8080)
+    - gatling.base.url - base url of target systmem (http://localhost:8080)
     - gatling.yml.file - relative path to the yml file describing the gatling simulation (./example.yml)
     
 The complete command for this project would be
@@ -38,7 +38,7 @@ Now build the jar using
     
 When executing the jar two system properties must be passed in
     
-    - galing.base.url - base url of target systmem (http://localhost:8080)
+    - gatling.base.url - base url of target systmem (http://localhost:8080)
     - gatling.yml.file - classpath of the yml file describing the gatling simulation (example.yml)
 
 The complete command for this project would be
